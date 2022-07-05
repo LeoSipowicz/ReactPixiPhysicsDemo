@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Stage } from "react-pixi-fiber";
+//import { Stage } from "@inlet/react-pixi";
 import RotatingBunny from "./physicsSim";
 
 const height = 450;
