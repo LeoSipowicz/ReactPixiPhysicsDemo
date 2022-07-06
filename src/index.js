@@ -2,7 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Stage } from "react-pixi-fiber";
 //import { Stage } from "@inlet/react-pixi";
-import RotatingBunny from "./physicsSim";
+//import RotatingBunny from "./physicsSim";
+//import Spiral from "./spiral.js";
+import Physics from "./physicsOnly";
+import RotatingBunny from "./pixiReactTest";
 
 const height = 450;
 const width = 600;
@@ -14,9 +17,9 @@ const OPTIONS = {
 
 function App() {
   return (
-    <Stage options={OPTIONS}>
-      <RotatingBunny x={width / 2} y={height / 2} />
-    </Stage>
+    <svg width="400" height="400">
+      <Physics cx={1000} cy={800} maxR={75} />
+    </svg>
   );
 }
 
