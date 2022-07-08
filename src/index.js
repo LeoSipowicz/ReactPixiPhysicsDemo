@@ -1,11 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Stage } from "react-pixi-fiber";
-//import { Stage } from "@inlet/react-pixi";
-//import RotatingBunny from "./physicsSim";
-//import Spiral from "./spiral.js";
-import Physics from "./physicsOnly";
-import RotatingBunny from "./pixiReactTest";
+import Physics from "./Physics";
 
 const height = 450;
 const width = 600;
